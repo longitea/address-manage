@@ -1,0 +1,33 @@
+#address-component {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    /* padding-left: 32px; */
+    border: 2px solid var(--gray);
+}
+
+.address-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.address-content {
+    margin: 10px 0;
+    
+}
+
+.address-content > span {
+    margin: 10px 10px 10px 0;
+    color: gray;
+}
+
+.place-icon {
+    width: 16px;
+    filter: invert(53%) sepia(1%) saturate(0%) hue-rotate(171deg) brightness(96%) contrast(89%);
+}
+
+
+.edit-btn-address {
+    color: var(--blue);
+    margin-left: -16px;
+}
+
