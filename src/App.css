@@ -1,8 +1,17 @@
 /*Iphone(380 x 640)*/
-@media screen and (min-width: 380px) {}
+@media screen and (min-width: 380px) {
+  #root {
+    /* Mobile Screen Size */
+    width: 400px; /* 400px nhìn cho đẹp*/
+    margin: 0 auto;
+    padding: 1rem;
+  }
+}
 
 /*Tablet nhỏ(480 x 640)*/
-@media screen and (min-width: 480px) {}
+@media screen and (min-width: 480px) {
+  
+}
 
 /*Ipad dọc(768 x 1024)*/
 @media screen and (min-width: 768px) {}
@@ -12,7 +21,7 @@
 
 #root {
   /* Mobile Screen Size */
-  width: 400px; /* 400px nhìn cho đẹp*/
+  min-width: 320px; /* 400px nhìn cho đẹp*/
   margin: 0 auto;
   padding: 1rem;
 }
